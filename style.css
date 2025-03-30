@@ -1,3 +1,4 @@
+/* Use a class selector to style the body */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
@@ -6,6 +7,7 @@ body {
     padding: 0;
 }
 
+/* ID selector to style a specific element (e.g., a header) */
 #main-header {
     text-align: center;
     background-color: #333;
@@ -14,6 +16,7 @@ body {
     margin-bottom: 20px;
 }
 
+/* Class selector for styling a paragraph */
 .intro-paragraph {
     font-size: 1.2em;
     line-height: 1.6;
@@ -24,6 +27,7 @@ body {
     border-radius: 5px;
 }
 
+/* Styling an image */
 img {
     width: 100%;
     height: auto;
@@ -32,6 +36,7 @@ img {
     border: 3px solid #ccc;
 }
 
+/* Adding margin, padding, and borders to a container */
 .container {
     margin: 30px auto;
     padding: 20px;
@@ -41,6 +46,7 @@ img {
     border-radius: 8px;
 }
 
+/* Styling for h2 */
 h2 {
     color: #333;
     font-size: 2em;
@@ -48,6 +54,7 @@ h2 {
     margin-bottom: 10px;
 }
 
+/* Styling for paragraphs inside h2 sections */
 main p {
     font-size: 1.1em;
     color: #555;
@@ -55,6 +62,7 @@ main p {
     margin: 10px 0;
 }
 
+/* Footer styling */
 footer {
     background-color: #333;
     color: #fff;
@@ -64,6 +72,7 @@ footer {
     bottom: 0;
 }
 
+/* Styling for the footer paragraph */
 footer p {
     font-size: 1em;
     margin: 0;
